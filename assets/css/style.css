@@ -1,0 +1,201 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    color: #131313;
+  }
+  .hero-section {
+    background: url('../images/banner.png') no-repeat center center/cover;
+    height: 840px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 80px;
+    margin-bottom: 47px;
+    color: white;
+  }
+  .hero-content p {
+    font-size: 18px;
+    color: white;
+  }
+  .hero-content .shopNow {
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 10px 16px;
+  }
+
+  /*  */
+  .bag {
+    border-radius: 8px;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    padding: 8px;
+  }
+
+  .nav .nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #131313;
+    text-transform: uppercase;
+  }
+
+  .section-content {
+    padding: 80px 0;
+  }
+
+  .brand-philosophy .sale {
+    padding: 12px 14px;
+    background-color: #fff;
+    border-radius: 1000px;
+    display: inline-block;
+  }
+
+  .brand-philosophy h2 {
+    font-size: 64px;
+    margin: 18px 0;
+  }
+  .brand-philosophy p {
+    font-size: 18px;
+    color: #616064;
+    margin: 0;
+  }
+
+  .brand-philosophy .btn-read {
+    padding: 12px 16px;
+    border-radius: 1000px;
+    background: #4194AA;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+  }
+
+  .by-title {
+    font-size: 52px;
+    margin-bottom: 18px;
+  }
+
+  .by-text {
+    font-size: 18px;
+    color: #616064;
+    margin-bottom: 64px;
+  }
+
+  .ingredients-section .card {
+    border: none;
+  }
+
+  .ingredients-body {
+    margin-top: 24px;
+  }
+
+  .ingredients-title {
+    font-size: 30px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  
+  .ingredients-text {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .ingredients-arrow {
+    border-radius: 1000px;
+    background: #4194AA;
+    padding: 12px 16px;
+    display: inline;
+  }
+
+  .nature-tabs {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 64px;
+  }
+  
+  .nature-tabs .nature-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+    border-radius: 1000px;
+    border: 1px solid #E9ECEE;
+  }
+
+  .nature-tabs .nature-tab.active {
+    background-color: #4194AA;
+    border: 1px solid #4194AA;
+  }
+
+  .nature-seemore {
+    padding: 16px;
+    border-radius: 1000px;
+    border: 1px solid #E9ECEE;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .instagram .title {
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .instagram .text {
+    font-size: 16px;
+    margin: 44px 0;
+  }
+
+  /* footer */
+  .footer {
+    background: #4CAFC3;
+    padding: 60px 0;
+  }
+  
+  .footer .footer-logo {
+    font-size: 32px;
+    margin-bottom: 18px;
+  }
+  
+  .footer .footer-logo-txt{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #616064;
+  }
+
+  
+  .footer .footer-label {
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+  
+  .footer .footer-link {
+    font-size: 18px;
+    margin-top: 16px;
+    color: #616064;
+  }
+
+  .footer-bottom {
+    padding: 40px 40px 0 40px;
+    border-top: 1px solid #E9ECEE;
+    margin-top: 40px;
+  }
