@@ -38,6 +38,23 @@ body {
     border: 1px solid #E5E5E5;
     background: #FFF;
     padding: 8px;
+    position: relative;
+  }
+
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    border-radius: 50%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
   }
 
   .nav .nav-link {
@@ -78,6 +95,33 @@ body {
     text-decoration: none;
     margin-top: 30px;
     display: inline-block;
+    position: relative;
+  }
+
+  .btn-add-to-cart {
+    padding: 12px 16px;
+    border-radius: 1000px;
+    background: #fff;
+    text-transform: uppercase;
+    color: #4194AA;
+    text-decoration: none;
+    margin-bottom: 60px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #4194AA;
+  }
+
+  .btn-buy-now {
+    padding: 12px 16px;
+    border-radius: 1000px;
+    background: #4194AA;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 60px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid transparent;
   }
 
   .by-title {
@@ -123,6 +167,7 @@ body {
     align-items: center;
     margin-top: 24px;
     margin-bottom: 64px;
+    cursor: pointer;
   }
   
   .nature-tabs .nature-tab {
@@ -152,6 +197,7 @@ body {
     margin: auto;
     text-align: center;
     margin-top: 15px;
+    cursor: pointer;
   }
 
   .instagram .title {
@@ -229,6 +275,7 @@ body {
   /* ========= shop page ============ */
   .nature-best-item {
     margin-bottom: 40px;
+    cursor: pointer;
   }
   .nature-best-title {
     color: #131313;
@@ -321,7 +368,10 @@ body {
     border: 1px solid #1F2026;
     color: #1F2026;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 
   .cart-total {
@@ -369,7 +419,6 @@ body {
     font-weight: 500;
     line-height: 32px;
   }
-
   .subtotal {
     border-top: 1px solid #E6E6E6;
     border-bottom: 1px solid #E6E6E6;
