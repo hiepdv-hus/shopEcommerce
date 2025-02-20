@@ -1,0 +1,100 @@
+{
+  "products": {
+    "product1": {
+      "id": 1,
+      "description": "As nature lovers and passionate about exploring Vietnam's unique resources, we are always steadfast in our philosophies on the journey to find the true beauty of the skin.",
+      "image": "nature1",
+      "name": "Sarsi Spice",
+      "price": 10000,
+      "category": "ALL-IN-ONE"
+    },
+    "product2": {
+      "id": 2,
+      "description": "A unique blend of natural ingredients to help hydrate and rejuvenate your skin. Perfect for your daily facial routine, providing moisture and elasticity.",
+      "image": "nature2",
+      "name": "Sarsi Spice 2",
+      "price": 20000,
+      "category": "FACIAL CARE"
+    },
+    "product3": {
+      "id": 3,
+      "description": "Rich in nutrients, this product helps nourish and rejuvenate your body, leaving your skin feeling soft, smooth, and radiant. Ideal for use after a bath.",
+      "image": "nature3",
+      "name": "Sarsi Spice 3",
+      "price": 30000,
+      "category": "BODY CARE"
+    },
+    "product4": {
+      "id": 4,
+      "description": "Strengthens and nourishes hair from root to tip, leaving it feeling soft and shiny. This product works wonders for all hair types.",
+      "image": "nature4",
+      "name": "Sarsi Spice 4",
+      "price": 40000,
+      "category": "HAIR CARE"
+    },
+    "product5": {
+      "id": 5,
+      "description": "A versatile product suitable for all skin types, providing hydration and improving overall skin texture. It also promotes a healthy, glowing complexion.",
+      "image": "nature5",
+      "name": "Sarsi Spice 5",
+      "price": 50000,
+      "category": "ALL-IN-ONE"
+    },
+    "product6": {
+      "id": 6,
+      "description": "A soothing facial serum that helps restore your skin’s natural glow and balance. This product is enriched with botanical extracts for deep nourishment.",
+      "image": "nature6",
+      "name": "Sarsi Spice 6",
+      "price": 60000,
+      "category": "FACIAL CARE"
+    },
+    "product7": {
+      "id": 7,
+      "description": "A luxurious body lotion that hydrates and soothes dry skin. Ideal for use after showering, leaving your skin feeling smooth and nourished.",
+      "image": "nature7",
+      "name": "Sarsi Spice 7",
+      "price": 70000,
+      "category": "BODY CARE"
+    },
+    "product8": {
+      "id": 8,
+      "description": "A nourishing hair mask that deeply repairs and strengthens hair. Perfect for restoring damaged hair and preventing split ends.",
+      "image": "nature8",
+      "name": "Sarsi Spice 8",
+      "price": 80000,
+      "category": "HAIR CARE"
+    },
+    "product9": {
+      "id": 9,
+      "description": "A multi-purpose product that works as a moisturizer, sunscreen, and anti-aging cream. Perfect for your everyday skincare routine.",
+      "image": "nature9",
+      "name": "Sarsi Spice 9",
+      "price": 90000,
+      "category": "ALL-IN-ONE"
+    },
+    "product10": {
+      "id": 10,
+      "description": "A facial toner that tightens pores and balances skin. Infused with natural extracts, it helps restore skin’s natural pH and moisture.",
+      "image": "nature10",
+      "name": "Sarsi Spice 10",
+      "price": 100000,
+      "category": "FACIAL CARE"
+    },
+    "product11": {
+      "id": 11,
+      "description": "A body scrub that gently exfoliates dead skin cells, revealing smoother, brighter skin. Perfect for a spa-like experience at home.",
+      "image": "nature11",
+      "name": "Sarsi Spice 11",
+      "price": 110000,
+      "category": "BODY CARE"
+    },
+    "product12": {
+      "id": 12,
+      "description": "A lightweight hair serum that adds shine and smoothness, leaving your hair feeling healthy and nourished.",
+      "image": "nature12",
+      "name": "Sarsi Spice 12",
+      "price": 120000,
+      "category": "HAIR CARE"
+    }
+  }
+}
