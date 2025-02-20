@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentPage = window.location.pathname.split('/').pop();
     
     // Kiểm tra nếu giỏ hàng có sản phẩm
-    if (cart.length > 0) {
+    if (cart.length > 0 && cartContainer) {
         // Hiển thị các sản phẩm trong giỏ
         if (currentPage == 'checkout.html') {
             cart.forEach((product, index) => {
