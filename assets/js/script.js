@@ -1,4 +1,6 @@
 function displayProducts(products, showAll = false) {
+
+    console.log('product', products);
     const productContainer = document.querySelector('.nature-section .row');
     const loadMoreContainer = document.querySelector('.load-more-container');
     productContainer.innerHTML = '';
@@ -52,7 +54,7 @@ function loadProducts(showAll = false, category = 'ALL-IN-ONE') {
     const productsRef = database.ref('products');
 
     // Nếu category là ALL-IN-ONE, không lọc theo category, mà lấy tất cả sản phẩm
-    if (category === 'ALL-IN-ONE') {
+    if (category == 'ALL-IN-ONE') {
         productsRef.once('value')
             .then((snapshot) => {
                 const products = [];
@@ -80,6 +82,7 @@ function loadProducts(showAll = false, category = 'ALL-IN-ONE') {
                 console.error("Error fetching products: ", error);
             });
     }
+    
 }
 
 // Thêm sự kiện khi trang được tải
